@@ -1,0 +1,24 @@
+
+
+# General
+*.log
+*.swo
+*.swp
+.DS_Store
+
+# Python / Django
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+staticfiles/
+media/
+
+# Node / Angular
+dist/
+tmp/
+.angular/cache
+
+# Specific to this project structure
+/venv
+/frontend/node_modules
